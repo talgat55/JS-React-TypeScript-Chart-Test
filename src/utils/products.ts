@@ -2,7 +2,6 @@ import {ChartData} from "chart.js";
 import {manufactories, MONTHS, PIE_COLOR_GREEN, PIE_COLOR_YELLOW} from "../constants";
 import {IMappedNumberItem} from "../ts/interfaces";
 import {IProductItem} from "../ts/interfaces/products";
-import {useState} from "react";
 
 export const getMonth = (value: number) => {
     return value + 1
